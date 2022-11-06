@@ -11,7 +11,7 @@ Members:
 
 정민석, 기계공학부, jungms0613@gmail.com
 
-한승현, 컴퓨터소프트웨어학부, 
+한승현, 컴퓨터소프트웨어학부, captain8380@naver.com
 
 
 I. Proposal (Option A)
