@@ -14,7 +14,6 @@ Members:
 한승현, 컴퓨터소프트웨어학부, Email
 
 
- 
 I. Proposal (Option A)
 
 
