@@ -9,9 +9,9 @@ Members:
 
 김재현, 경제금융학부, kimjh0306@hanyang.ac.kr
 
-정민석, 기계공학부, Email
+정민석, 기계공학부, jungms0613@gmail.com
 
-한승현, 컴퓨터소프트웨어학부, Email
+한승현, 컴퓨터소프트웨어학부, 
 
 
 I. Proposal (Option A)
