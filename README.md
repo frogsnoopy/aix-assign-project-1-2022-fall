@@ -1,7 +1,7 @@
 # aix-assign-project-1-2022-fall
 AI+X: Deep Learning Hanyang university
 
-# Title: 삼성전자는 언제 사야 할까?
+# Title: 삼성전자는 사도 될까?
 
 
 
