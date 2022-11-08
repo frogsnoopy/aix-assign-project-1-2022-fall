@@ -1,11 +1,11 @@
 # aix-assign-project-1-2022-fall
 AI+X: Deep Learning Hanyang university
 
-Title: 삼성전자는 언제 사야 할까?
+#Title: 삼성전자는 언제 사야 할까?
 
 
 
-Members: 
+#Members: 
 
 김재현, 경제금융학부, kimjh0306@hanyang.ac.kr
 
@@ -14,7 +14,7 @@ Members:
 한승현, 컴퓨터소프트웨어학부, captain8380@naver.com
 
 
-I. Proposal (Option A)
+#I. Proposal (Option A)
 
 
 - Motivation: Why are you doing this?
@@ -29,17 +29,17 @@ I. Proposal (Option A)
 또한, 어떤 지표가 중요한지도 찾아보겠습니다.
 
 
-II. Datasets
+#II. Datasets
 - Describing your dataset 
 
-III. Methodology 
+#III. Methodology 
 - Explaining your choice of algorithms (methods)
 - Explaining features (if any)
 
-IV. Evaluation & Analysis
+#IV. Evaluation & Analysis
 - Graphs, tables, any statistics (if any)
 
-V. Related Work (e.g., existing studies)
+#V. Related Work (e.g., existing studies)
 - Tools, libraries, blogs, or any documentation that you have used to do this project.
 
-VI. Conclusion: Discussion
+#VI. Conclusion: Discussion
