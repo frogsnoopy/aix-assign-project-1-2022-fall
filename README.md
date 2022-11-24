@@ -31,6 +31,7 @@ AI+X: Deep Learning Hanyang university
 
 # II. Datasets
 - Describing your dataset 
+<img width = "80%" src="https://user-images.githubusercontent.com/117578583/203816444-d0f28170-5828-4ad3-9378-c418b8b154c0.PNG"/>
 
 # III. Methodology 
 - Explaining your choice of algorithms (methods)
