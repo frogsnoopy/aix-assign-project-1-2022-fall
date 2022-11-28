@@ -19,12 +19,12 @@ AI+X: Deep Learning Hanyang university
 
 - Motivation: Why are you doing this?
 
-'우리나라를 대표하는 주식을 지금 사도 되는 것일까?' 라는 고민을 하게 되었습니다.
+'우리나라를 대표하는 주식인 삼성전자를 지금 사도 되는 것일까?' 라는 고민을 하게 되었습니다.
 
 
 - What do you want to see at the end?
 
-삼성전자를 지금 사면 1주일 후 상승할 지를 다양한 feature들과 딥러닝 및 머신러닝 모델을 사용해서 예측해보려고 합니다.
+삼성전자를 지금 사면 내일 상승할 지를 다양한 feature들과 딥러닝 및 머신러닝 모델을 사용해서 예측해보려고 합니다.
 
 또한, 어떤 지표가 중요한지도 찾아보겠습니다.
 
@@ -36,7 +36,7 @@ AI+X: Deep Learning Hanyang university
 
 열에는 일자, 종가, 거래량, 상장주식수, 매출액, 당기순이익, month, day, result가 있습니다.
 
-일자는 거래일을 의미합니다. 따라서 한국의 주식장이 쉬는 날(ex: 주말, 공휴일 등등)은 포함되어 있지 않습니다.
+일자는 거래일을 의미합니다. 따라서 한국 주식장이 쉬는 날(ex: 주말, 공휴일 등등)은 포함되어 있지 않습니다. 따라서 해당 데이터셋의 데이터행은 인덱스 제외 1723행입니다.
 
 종가는 해당 거래일의 마지막 가격을 의미합니다.
 
@@ -59,8 +59,15 @@ result는 등락률이 양수이면 1 음수이면 0으로 하였습니다.
 해당 데이터 파일은 KRX 정보데이터시스템, DART를 통해 추출된 데이터를 합성하여 직접 만들었습니다.
 
 # III. Methodology 
-- Explaining your choice of algorithms (methods)
-- Explaining features (if any)
+
+알고리즘은 랜덤포레스트(Random forest)를 선택하였습니다.
+
+현재 데이터셋의 상황이 타이타닉 데이터셋과 유사하다고 생각했습니다. 
+
+타이타닉 데이터셋의 생존여부가 이 데이터셋에서는 result(상승 or 하락)라 생각했습니다.
+
+따라서 해당 데이터셋을 타이타닉 데이터 분석과 비슷한 방식으로 진행하려고 합니다.
+
 
 # IV. Evaluation & Analysis
 - Graphs, tables, any statistics (if any)
