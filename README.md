@@ -30,7 +30,7 @@ AI+X: Deep Learning Hanyang university
 
 
 # II. Datasets
-<img width = "80%" src="https://user-images.githubusercontent.com/117578583/203816444-d0f28170-5828-4ad3-9378-c418b8b154c0.PNG"/>
+<img width = "100%" src="https://user-images.githubusercontent.com/117578583/204284156-c8d18d0f-9995-4bd9-b6c6-3ac4807a79d7.PNG"/>
 
 삼성전자의 2015년부터 2021년까지 주가데이터를 가져왔습니다.
 
