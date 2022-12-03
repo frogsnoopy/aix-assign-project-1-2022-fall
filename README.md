@@ -1,11 +1,11 @@
 # aix-assign-project-1-2022-fall
 AI+X: Deep Learning Hanyang university
 
-# Title: 삼성전자는 사도 될까?
+## Title: 삼성전자는 사도 될까?
 
 
 
-# Members: 
+## Members: 
 
 김재현, 경제금융학부, kimjh0306@hanyang.ac.kr
 
@@ -14,22 +14,22 @@ AI+X: Deep Learning Hanyang university
 한승현, 컴퓨터소프트웨어학부, captain8380@naver.com
 
 
-# I. Proposal (Option A)
+## I. Proposal (Option A)
 
 
-- Motivation: Why are you doing this?
+### Motivation: Why are you doing this?
 
 '우리나라를 대표하는 주식인 삼성전자를 지금 사도 되는 것일까?' 라는 고민을 하게 되었습니다.
 
 
-- What do you want to see at the end?
+### What do you want to see at the end?
 
 삼성전자를 지금 사면 내일 상승할 지를 다양한 feature들과 딥러닝 및 머신러닝 모델을 사용해서 예측해보려고 합니다.
 
 또한, 어떤 지표가 중요한지도 찾아보겠습니다.
 
 
-# II. Datasets
+## II. Datasets
 <img width = "100%" src="https://user-images.githubusercontent.com/117578583/204284156-c8d18d0f-9995-4bd9-b6c6-3ac4807a79d7.PNG"/>
 
 삼성전자의 2015년부터 2021년까지 주가데이터를 가져왔습니다.
@@ -58,7 +58,7 @@ result는 다음날 등락률이 양수이면 1 음수이면 0으로 하였습�
 
 해당 데이터 파일은 KRX 정보데이터시스템, DART를 통해 추출된 데이터를 합성하여 직접 만들었습니다.
 
-# III. Methodology 
+## III. Methodology 
 
 알고리즘은 랜덤포레스트(Random forest)를 선택하였습니다.
 
@@ -69,10 +69,10 @@ result는 다음날 등락률이 양수이면 1 음수이면 0으로 하였습�
 따라서 해당 데이터셋을 타이타닉 데이터 분석과 비슷한 방식으로 진행하려고 합니다.
 
 
-# IV. Evaluation & Analysis
+## IV. Evaluation & Analysis
 - Graphs, tables, any statistics (if any)
 
-# V. Related Work (e.g., existing studies)
+## V. Related Work (e.g., existing studies)
 - Tools, libraries, blogs, or any documentation that you have used to do this project.
 
-# VI. Conclusion: Discussion
+## VI. Conclusion: Discussion
