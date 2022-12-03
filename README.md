@@ -96,6 +96,17 @@ all$month <- as.factor(all$month)
 all$day <- as.factor(all$day)
 ```
 
+#### 왜 월과 일을 추출했을까요? 
+```R
+a <- tapply(all$result, all$month, sum)
+barplot(a, xlab='월', ylab = '상승 횟수', main ='월 별 상승일')
+b <- tapply(all$result, all$day, sum)
+barplot(b, xlab='일', ylab = '상승 횟수', main ='일 별 상승일')
+```
+
+
+
+
 - 다음 날 종가가 오늘 종가보다 높다면 1을 주고 그렇지 않다면 0을 줘서 result열을 추가했습니다. 그러기 위해서 먼저 result열을 만들었습니다.
 마지막 날(2021년 12월 말)은 다음 날 정보가 없으니 마지막행을 지우는 작업까지 수행했습니다.
 
@@ -173,6 +184,7 @@ ggplot(models_Importance, aes(x = reorder(Variables, Importance),y = Importance,
   geom_bar(stat='identity') + geom_text(aes(x = Variables,y=0.5,label=Importance),hjust = 0, vjust = 0.55, size = 4, colour = 009933) +
   labs(x='Variables') + coord_flip() + theme_few()
 ```
+<img width = "80%" src="https://user-images.githubusercontent.com/117578583/205450449-b7852a8c-fe55-48c1-b5df-4b5cab5a35c1.PNG"/>
 
 - 만들 모델을 가지고 예측을 했습니다.
 전체 중에 몇 %를 맞췄는지를 나타내는 것이 마지막 코드입니다.
