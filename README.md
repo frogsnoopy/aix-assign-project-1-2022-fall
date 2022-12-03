@@ -7,12 +7,17 @@ AI+X: Deep Learning Hanyang university
 
 ## Members: 
 
-김재현, 경제금융학부, kimjh0306@hanyang.ac.kr
+#### -김재현, 경제금융학부, kimjh0306@hanyang.ac.kr
 
-정민석, 기계공학부, jungms0613@gmail.com
+역할: 블로그 작성 데이터셋 추출 및 시각화
 
-한승현, 컴퓨터소프트웨어학부, captain8380@naver.com
+#### -정민석, 기계공학부, jungms0613@gmail.com
 
+역할: 결론 도출 및 유튜브를 통한 설명
+
+#### -한승현, 컴퓨터소프트웨어학부, captain8380@naver.com
+
+역할: 데이터 모델링 및 예측
 
 ## I. Proposal (Option A)
 
