@@ -101,17 +101,6 @@ all$month <- as.factor(all$month)
 all$day <- as.factor(all$day)
 ```
 
-#### 왜 월과 일을 추출했을까요? 
-```R
-a <- tapply(all$result, all$month, sum)
-barplot(a, xlab='월', ylab = '상승 횟수', main ='월 별 상승일')
-b <- tapply(all$result, all$day, sum)
-barplot(b, xlab='일', ylab = '상승 횟수', main ='일 별 상승일')
-```
-<img width = "100%" src="https://user-images.githubusercontent.com/117578583/205451090-d510b967-c658-4074-8c90-dec04ab7417a.PNG"/>
-
-
-
 - 다음 날 종가가 오늘 종가보다 높다면 1을 주고 그렇지 않다면 0을 줘서 result열을 추가했습니다. 그러기 위해서 먼저 result열을 만들었습니다.
 마지막 날(2021년 12월 말)은 다음 날 정보가 없으니 마지막행을 지우는 작업까지 수행했습니다.
 
@@ -132,6 +121,17 @@ while (i < 1723){
 all <- all[1:1722,]       #delete first row because of no result data in first row
 all$order <- all$order-1  #because delete first row
 ```
+
+#### Q.왜 월과 일을 추출했을까요?  A.유의미해 보였기 때문
+```R
+a <- tapply(all$result, all$month, sum)
+barplot(a, xlab='월', ylab = '상승 횟수', main ='월 별 상승일')
+b <- tapply(all$result, all$day, sum)
+barplot(b, xlab='일', ylab = '상승 횟수', main ='일 별 상승일')
+```
+<img width = "100%" src="https://user-images.githubusercontent.com/117578583/205451090-d510b967-c658-4074-8c90-dec04ab7417a.PNG"/>
+
+
 
 - 새로운 feature들을 추가해줬습니다. price의 경우 종가를 100으로 나누고 반올림한 값입니다. trade는 해당일에 거래량을 총발행 주식수롤 나누고 1000배를 한 것을 백분율로 표현한 값입니다. margin은 net profit margin으로 한국말로는 순이익률이라고 합니다. 연 당기순이익을 연 매출액으로 나누는 게 일반적이지만 여기서는 분기별 당기순이익을 분기별 매출액으로 나눈 값입니다.
 
