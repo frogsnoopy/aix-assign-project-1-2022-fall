@@ -31,7 +31,6 @@ AI+X: Deep Learning Hanyang university
 
 ## II. Datasets
 <img width = "100%" src="https://user-images.githubusercontent.com/117578583/204284156-c8d18d0f-9995-4bd9-b6c6-3ac4807a79d7.PNG"/>
-
 삼성전자의 2015년부터 2021년까지 주가데이터를 가져왔습니다.
 
 열에는 일자, 종가, 거래량, 상장주식수, 매출액, 당기순이익, month, day, result가 있습니다.
@@ -156,6 +155,9 @@ model <- randomForest(factor(result) ~ price + trade + margin + month , data = t
 plot(model, ylim=c(0.30,0.70)) 
 legend('topright', colnames(model$err.rate),col=1:3,fill=1:3)
 ```
+
+<img width = "80%" src="https://user-images.githubusercontent.com/117578583/205450312-c873f345-989b-472c-91bb-224388b440ff.PNG"/>
+
 
 - 모델에서 변수의 중요도를 계산하고 시각화 했습니다.
 ```R
