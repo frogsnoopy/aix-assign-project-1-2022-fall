@@ -55,7 +55,7 @@ month는 해당 월을 의미하고, day는 해당 일을 의미합니다. 월�
 
 result는 다음날 등락률이 양수이면 1 음수이면 0으로 하였습니다. 예를 들어 오늘 종가보다 내일 종가가 더 높다면 오늘 행의 result에 1을 해놓았습니다.
 
-해당 데이터 파일은 KRX 정보데이터시스템, DART를 통해 추출된 데이터를 합성하여 직접 만들었습니다.
+해당 데이터 파일은 KRX 정보데이터시스템, 금융감독원 전자공시시스템(DART)를 통해 추출된 데이터를 합성하여 직접 만들었습니다.
 
 ## III. Methodology 
 
@@ -103,7 +103,7 @@ barplot(a, xlab='월', ylab = '상승 횟수', main ='월 별 상승일')
 b <- tapply(all$result, all$day, sum)
 barplot(b, xlab='일', ylab = '상승 횟수', main ='일 별 상승일')
 ```
-
+<img width = "100%" src="https://user-images.githubusercontent.com/117578583/205451090-d510b967-c658-4074-8c90-dec04ab7417a.PNG"/>
 
 
 
@@ -186,7 +186,7 @@ ggplot(models_Importance, aes(x = reorder(Variables, Importance),y = Importance,
 ```
 <img width = "80%" src="https://user-images.githubusercontent.com/117578583/205450449-b7852a8c-fe55-48c1-b5df-4b5cab5a35c1.PNG"/>
 
-- 만들 모델을 가지고 예측을 했습니다.
+- 만 모델을 가지고 예측을 했습니다.
 전체 중에 몇 %를 맞췄는지를 나타내는 것이 마지막 코드입니다.
 ```R
 prediction <- predict(model, test) #save result of predicted test
@@ -219,4 +219,4 @@ table(all$result)   #전체 값들 중 1은 몇 퍼센트일까?
 876/(846+876) * 100    #50.87108% 즉 randomForest 모델로 예측한 것과 크게 차이 나지 않음 
 ```
 
-#### 방금 살펴 본 변수로는 예측하기 힘들다고 할 수 있습니다. 왜냐하면 항상 오른다고 답하는 사람과 이 모델을 써서 예측한 사람과의 정답률 차이는 기껏해야 2퍼 대로 보이기에 유의미한 모델을 만들지 못 했다고 할 수 있습니다. 물론 이 정보가 시장에 있는 모든 정보를 써서 예측한 것은 아니기에 예측 불가능하다고 단정 지을 수는 없습니다. 하지만 해당 결과만 보면 [효율적 시장 가설(efficient market hypothesis)](https://terms.naver.com/entry.naver?docId=2075080&cid=50305&categoryId=50305)을 어느정도 뒷받침하는 결과입니다.
+#### 방금 살펴 본 변수로는 예측하기 힘들다고 할 수 있습니다. 항상 오른다고 답하는 사람과 이 모델을 써서 예측한 사람과의 정답률 차이는 기껏해야 2퍼 대로 돈을 버는 데 쓰기에는 부적절하다고 볼 수 있습니다. 물론 이 정보가 시장에 있는 모든 정보를 써서 모델링한 것은 아니기에 주가예측은 불가능하다고 단정 지을 수는 없습니다. 하지만 해당 결과는 [효율적 시장 가설(efficient market hypothesis)](https://terms.naver.com/entry.naver?docId=2075080&cid=50305&categoryId=50305)을 어느정도 뒷받침합니다.
