@@ -191,7 +191,7 @@ ggplot(models_Importance, aes(x = reorder(Variables, Importance),y = Importance,
 ```
 <img width = "80%" src="https://user-images.githubusercontent.com/117578583/205450449-b7852a8c-fe55-48c1-b5df-4b5cab5a35c1.PNG"/>
 
-- 만 모델을 가지고 예측을 했습니다.
+- 만든 모델을 가지고 예측을 했습니다.
 전체 중에 몇 %를 맞췄는지를 나타내는 것이 마지막 코드입니다.
 ```R
 prediction <- predict(model, test) #save result of predicted test
