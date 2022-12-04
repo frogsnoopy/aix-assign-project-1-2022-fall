@@ -216,7 +216,7 @@ write.csv(increase_prediction, file = 'solution.csv', row.names = F) #save csv f
 
 
 ## V. Related Work (e.g., existing studies)
-- Tools, libraries, blogs, or any documentation that you have used to do this project.
+- [타이타닉 예제](https://www.kaggle.com/code/mrisdal/exploring-survival-on-the-titanic)
 
 ## VI. Conclusion: Discussion
 ```R
@@ -224,4 +224,4 @@ table(all$result)   #전체 값들 중 1은 몇 퍼센트일까?
 876/(846+876) * 100    #50.87108% 즉 randomForest 모델로 예측한 것과 크게 차이 나지 않음 
 ```
 
-#### 방금 살펴 본 변수로는 예측하기 힘들다고 할 수 있습니다. 항상 오른다고 답하는 사람과 이 모델을 써서 예측한 사람과의 정답률 차이는 기껏해야 2퍼 대로 돈을 버는 데 쓰기에는 부적절하다고 볼 수 있습니다. 물론 이 정보가 시장에 있는 모든 정보를 써서 모델링한 것은 아니기에 주가예측은 불가능하다고 단정 지을 수는 없습니다. 하지만 해당 결과는 [효율적 시장 가설(efficient market hypothesis)](https://terms.naver.com/entry.naver?docId=2075080&cid=50305&categoryId=50305)을 어느정도 뒷받침합니다.
+#### 방금 살펴 본 변수로는 예측하기 힘들다고 할 수 있습니다. 항상 오른다고 답하는 사람과 이 모델을 써서 예측한 사람과의 정답률 차이는 기껏해야 2퍼 대로 돈을 버는 데 쓰기에는 부적절하다고 볼 수 있습니다. 물론 이 모델이 시장에 있는 모든 정보를 써서 모델링한 것은 아니기에 주가 예측이 불가능하다고 단정 지을 수는 없습니다. 하지만 해당 결과는 [효율적 시장 가설(efficient market hypothesis)](https://terms.naver.com/entry.naver?docId=2075080&cid=50305&categoryId=50305)을 어느정도 뒷받침합니다.
