@@ -148,6 +148,7 @@ head(all)  #all의 앞부분 보기
 tail(all)  #all의 뒷부분 보기
 str(all)   #show structure of all
 ```
+<img width = "100%" src="https://user-images.githubusercontent.com/117578583/205494314-20c36801-4edf-4489-b50a-bbd3b03271b4.PNG"/>
 
 - 이제 데이터셋을 훈련용과 테스트용으로 나누겠습니다.
 
