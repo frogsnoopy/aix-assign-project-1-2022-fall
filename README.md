@@ -80,7 +80,6 @@ ggplot(all, aes(x=order, y=closing_price)) + geom_line(aes(col=result)) +
 
 
 ## IV. Evaluation & Analysis
-- Graphs, tables, any statistics (if any)
 
 - 먼저 필요한 패키지를 설치합니다.
 
