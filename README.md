@@ -4,21 +4,6 @@ AI+X: Deep Learning Hanyang university
 ## Title: 삼성전자 사도 될까?
 
 
-
-## Members: 
-
-#### -김재현, 경제금융학부, kimjh0306@hanyang.ac.kr
-
-역할: 블로그 작성, 데이터셋 추출 및 시각화
-
-#### -정민석, 기계공학부, jungms0613@gmail.com
-
-역할: 결론 도출 및 유튜브를 통한 설명
-
-#### -한승현, 컴퓨터소프트웨어학부, captain8380@naver.com
-
-역할: 데이터 분석, 모델링 및 예측
-
 ## I. Proposal (Option A)
 
 
@@ -231,3 +216,17 @@ table(all$result)   #전체 값들 중 1은 몇 퍼센트일까?
 ```
 
 #### 방금 살펴 본 변수로는 예측하기 힘들다고 할 수 있습니다. 항상 오른다고 답하는 사람과 이 모델을 써서 예측한 사람과의 정답률 차이는 기껏해야 2퍼 대로 돈을 버는 데 쓰기에는 부적절하다고 볼 수 있습니다. 물론 이 모델이 시장에 있는 모든 정보를 써서 모델링한 것은 아니기에 주가 예측이 불가능하다고 단정 지을 수는 없습니다. 하지만 해당 결과는 [효율적 시장 가설(efficient market hypothesis)](https://terms.naver.com/entry.naver?docId=2075080&cid=50305&categoryId=50305)을 어느정도 뒷받침합니다.
+
+## Members:
+
+#### -김재현, 경제금융학부, kimjh0306@hanyang.ac.kr
+
+역할: 블로그 작성, 데이터셋 추출 및 시각화
+
+#### -정민석, 기계공학부, jungms0613@gmail.com
+
+역할: 결론 도출 및 유튜브를 통한 설명
+
+#### -한승현, 컴퓨터소프트웨어학부, captain8380@naver.com
+
+역할: 데이터 분석, 모델링 및 예측
